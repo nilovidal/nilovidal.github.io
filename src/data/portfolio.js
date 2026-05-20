@@ -184,19 +184,4 @@ export const socialLinks = [
     href: 'https://www.linkedin.com/in/nilo-vidal-herrera',
     external: true,
   },
-  {
-    id: 'email',
-    label: 'Email',
-    href: 'mailto:nilo.vidal@gmail.com',
-  },
-  {
-    id: 'phone',
-    label: '+34 680 37 59 30',
-    href: 'tel:+34680375930',
-  },
-]
-
-export const cvDownloads = [
-  { locale: 'es', href: '/cv/CV-Nilo-ES.pdf', labelKey: 'footer.cvEs' },
-  { locale: 'en', href: '/cv/CV-Nilo-EN.pdf', labelKey: 'footer.cvEn' },
 ]

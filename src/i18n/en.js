@@ -179,9 +179,7 @@ export default {
   footer: {
     tag: 'sector_contact',
     title: 'Contact',
-    subtitle: 'Salou and Barcelona · Open to cyber, development, and consulting projects.',
-    cvEs: 'CV in Spanish (PDF)',
-    cvEn: 'CV in English (PDF)',
+    subtitle: 'Salou and Barcelona · Connect with me on LinkedIn.',
     rights: 'All rights reserved.',
   },
   common: {
