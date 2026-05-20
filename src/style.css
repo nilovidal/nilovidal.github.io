@@ -1,3 +1,48 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@config '../tailwind.config.js';
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-canvas font-sans text-slate-200 antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(79, 195, 247, 0.12), transparent),
+      linear-gradient(rgba(79, 195, 247, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(79, 195, 247, 0.03) 1px, transparent 1px);
+    background-size: 100% 100%, 48px 48px, 48px 48px;
+  }
+
+  ::selection {
+    @apply bg-cyber/30 text-white;
+  }
+}
+
+@layer components {
+  .section-pad {
+    @apply mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28;
+  }
+
+  .glass-card {
+    @apply rounded-2xl border border-surface-border/60 bg-surface/80 backdrop-blur-md;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  }
+
+  .tag-mono {
+    @apply font-mono text-xs uppercase tracking-[0.2em] text-cyber;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-cyber/50 bg-cyber/10 px-5 py-2.5 text-sm font-medium text-cyber transition hover:border-cyber hover:bg-cyber/20 hover:shadow-cyber;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-surface-border px-5 py-2.5 text-sm font-medium text-slate-300 transition hover:border-muted hover:text-white;
+  }
+
+  .accent-line {
+    @apply h-px w-16 bg-gradient-to-r from-cyber to-transparent;
+  }
+}
