@@ -28,6 +28,11 @@ jobs:
       - run: npm ci
       - run: npm run build
 
+      - name: Verify production build
+        run: |
+          grep -q '/assets/index-.*\.js' dist/index.html
+          ! grep -q 'src/main.js' dist/index.html
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
