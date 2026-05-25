@@ -16,7 +16,7 @@ export default {
     title: 'Nilo Vidal',
     subtitle: 'Ciberseguridad & Desarrollo Full Stack',
     lead:
-      'Profesional con Máster en Ciberseguridad, experiencia en Deloitte y desarrollo con Vue y Angular. Combino formación técnica con liderazgo de élite en squash y producción audiovisual.',
+      'Profesional con Máster en Ciberseguridad, experiencia en Deloitte y desarrollo de software. Combino formación técnica con liderazgo de élite en squash y representación institucional.',
     ctaCyber: 'Ver trayectoria tech',
     ctaSquash: 'Carrera PSA',
     ctaContact: 'Contactar',

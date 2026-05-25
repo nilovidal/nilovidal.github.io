@@ -36,7 +36,7 @@ const tagStyles = {
         <img
           :src="playingImg"
           alt="Nilo Vidal — squash y medios"
-          class="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+          class="h-64 w-full object-cover object-[center_25%] transition duration-500 group-hover:scale-105"
           width="600"
           height="400"
         />
