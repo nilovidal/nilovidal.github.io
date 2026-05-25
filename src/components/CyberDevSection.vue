@@ -6,6 +6,7 @@ import {
   education,
   certifications,
   techStack,
+  featuredTech,
 } from '../data/portfolio.js'
 import SectionHeading from './ui/SectionHeading.vue'
 
@@ -85,7 +86,15 @@ const otherCerts = computed(() =>
             :key="i"
             class="glass-card border-l-2 border-l-cyber/50 p-5"
           >
-            <p class="font-medium text-white">{{ t(item.degreeKey) }}</p>
+            <div class="flex items-start justify-between gap-3">
+              <p class="font-medium text-white">{{ t(item.degreeKey) }}</p>
+              <span
+                v-if="item.badgeKey"
+                class="shrink-0 rounded border border-cyber/40 bg-cyber/10 px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-cyber"
+              >
+                {{ t(item.badgeKey) }}
+              </span>
+            </div>
             <p class="text-sm text-muted">{{ t(item.schoolKey) }}</p>
             <p class="mt-1 font-mono text-xs text-cyber-dim">
               {{ t(item.periodKey) }}
@@ -132,7 +141,7 @@ const otherCerts = computed(() =>
             v-for="tech in techStack"
             :key="tech"
             class="rounded-md border border-surface-border bg-surface-raised px-3 py-1.5 font-mono text-xs"
-            :class="tech === 'Vue.js' ? 'border-cyber/60 text-cyber shadow-cyber' : 'text-slate-300'"
+            :class="tech === featuredTech ? 'border-cyber/60 text-cyber shadow-cyber' : 'text-slate-300'"
           >
             {{ tech }}
           </span>

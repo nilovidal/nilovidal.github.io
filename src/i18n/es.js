@@ -97,6 +97,19 @@ export default {
       school: 'Universidad Rey Juan Carlos / ADESP',
       period: '2025',
     },
+    aiCyber: {
+      degree: 'Inteligencia Artificial y Ciberseguridad',
+      school: 'EOI · Universidad San Jorge',
+      period: '2026',
+      badge: 'IA',
+    },
+    digitalGen: {
+      degree:
+        'Generación Digital y Estrategias para el Plan de Transformación Digital en Empresas y PYMES',
+      school: 'EOI (Escuela de Organización Industrial)',
+      period: '2026',
+      badge: 'MOOC',
+    },
   },
   certs: {
     ccst: {
@@ -110,7 +123,7 @@ export default {
     nmap: { name: 'Scan Systems with Nmap', issuer: 'Codecademy' },
     vue: { name: 'Vue.js', issuer: 'Codecademy' },
     googleAi: {
-      name: 'Inteligencia Artificial y Productividad',
+      name: 'Google: Inteligencia Artificial y Productividad',
       issuer: 'Santander Open Academy',
     },
   },
@@ -164,9 +177,9 @@ export default {
     subtitle:
       'Figuración en Amazon Prime, testing para reality show internacional y base multimedia del grado.',
     prime: {
-      title: 'Viaje de Fin de Curso. La Película',
+      title: 'Viaje de Fin de Curso. La Película (2025)',
       role: 'Figuración · Amazon Prime España',
-      year: '2025',
+      year: '2024',
       desc: 'Participación en la producción cinematográfica de Amazon Prime Video España.',
     },
     reality: {

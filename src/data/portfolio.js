@@ -69,6 +69,18 @@ export const education = [
     schoolKey: 'edu.sport.school',
     periodKey: 'edu.sport.period',
   },
+  {
+    degreeKey: 'edu.aiCyber.degree',
+    schoolKey: 'edu.aiCyber.school',
+    periodKey: 'edu.aiCyber.period',
+    badgeKey: 'edu.aiCyber.badge',
+  },
+  {
+    degreeKey: 'edu.digitalGen.degree',
+    schoolKey: 'edu.digitalGen.school',
+    periodKey: 'edu.digitalGen.period',
+    badgeKey: 'edu.digitalGen.badge',
+  },
 ]
 
 export const certifications = [
@@ -110,13 +122,24 @@ export const techStack = [
   'TypeScript',
   'JavaScript',
   'Python',
+  'AI',
   'SQL',
   'HTML/CSS',
   'Bootstrap',
+  'Firebase',
+  'Google Cloud',
+  'Linux',
+  'Windows',
+  'Microsoft 365',
+  'SharePoint',
   'Git',
+  'SCRUM',
   'WordPress',
+  'Joomla',
   'CMS',
 ]
+
+export const featuredTech = 'JavaScript'
 
 export const squashTimeline = [
   {
