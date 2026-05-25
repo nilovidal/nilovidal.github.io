@@ -161,17 +161,22 @@ export default {
     t2022: {
       title: 'German Junior Open',
       desc: 'Management team (4 editions). 500+ people — one of the world\'s top junior events.',
-      org: 'Sportwerk Hamburg · Estival Park',
+      org: 'Sportwerk Hamburg',
     },
     t2024: {
       title: 'PSA Club Euro Sport & European 2024',
-      desc: 'Director of the first international pro open on the Costa Daurada. Presenter and webmaster, European Individual Championship.',
-      org: 'Estival Park · Spanish Squash Federation',
+      desc: 'Director of the first international professional squash open on the Costa Daurada. Presenter and webmaster, European Individual Championship.',
+      org: 'Club Euro Sport · Spanish Squash Federation',
     },
     t2025: {
       title: 'Spanish National Championship 2025',
       desc: 'Technical director of the national absolute tournament.',
       org: 'Spanish Squash Federation',
+    },
+    t2025b: {
+      title: 'PSA Club Euro Sport 2025',
+      desc: 'Director of the second edition of the only international professional squash open on the Costa Daurada.',
+      org: 'Club Euro Sport',
     },
     gov: {
       psa: 'Member of the PSA Athletes Commission',

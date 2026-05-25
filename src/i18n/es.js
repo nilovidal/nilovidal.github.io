@@ -161,22 +161,27 @@ export default {
     t2022: {
       title: 'German Junior Open',
       desc: 'Equipo directivo (4 ediciones). +500 personas — uno de los torneos junior más importantes del mundo.',
-      org: 'Sportwerk Hamburg · Estival Park',
+      org: 'Sportwerk Hamburg',
     },
     t2024: {
       title: 'PSA Club Euro Sport & Europeo 2024',
-      desc: 'Director del primer open profesional internacional en la Costa Daurada. Presentador y webmaster del Campeonato de Europa Individual.',
-      org: 'Estival Park · RFESquash',
+      desc: 'Director del primer open profesional internacional de squash en la Costa Daurada. Presentador y webmaster del Campeonato de Europa Individual.',
+      org: 'Club Euro Sport · Real Federación Española de Squash',
     },
     t2025: {
       title: 'Campeonato de España Absoluto 2025',
       desc: 'Director técnico del torneo nacional absoluto.',
       org: 'Real Federación Española de Squash',
     },
+    t2025b: {
+      title: 'PSA Club Euro Sport 2025',
+      desc: 'Director de la segunda edición del único open profesional internacional de squash en la Costa Daurada.',
+      org: 'Club Euro Sport',
+    },
     gov: {
       psa: 'Miembro de la PSA Athletes Commission',
       board: 'Junta Directiva — Real Federación Española de Squash (2024 – Presente)',
-      delegate: 'Comisión Delegada RFESquash (2020 – 2024)',
+      delegate: 'Comisión Delegada Real Federación Española de Squash (2020 – 2024)',
       wada: 'Candidato mundial para representar al squash en la Agencia Mundial Antidopaje (2023)',
     },
   },

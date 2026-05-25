@@ -181,6 +181,12 @@ export const squashTimeline = [
     descKey: 'squash.t2025.desc',
     orgKey: 'squash.t2025.org',
   },
+  {
+    year: '2025',
+    titleKey: 'squash.t2025b.title',
+    descKey: 'squash.t2025b.desc',
+    orgKey: 'squash.t2025b.org',
+  },
 ]
 
 export const governanceRoles = [
