@@ -49,9 +49,9 @@ export default {
       ],
     },
     cif: {
-      company: 'Club de la Independencia Financiera',
+      company: 'tuindependenciafinanciera.app',
       role: 'Desarrollador Angular & IT Specialist',
-      period: 'Abr 2023 – Presente',
+      period: 'Dic 2025 – Presente',
       bullets: [
         'Desarrollo web, apps y administración de sistemas',
         'Ciberseguridad y análisis de vulnerabilidades',
@@ -72,7 +72,16 @@ export default {
       period: 'Proyectos destacados',
       bullets: [
         'Gestión CMS Joomla y desarrollo de software',
-        'Desarrollo JavaScript con Angular',
+        'Gestión de hosting y bases de datos',
+      ],
+    },
+    euroSport: {
+      company: 'Club Euro Sport',
+      role: 'Mánager de Squash',
+      period: 'Jun 2014 – Nov 2025',
+      bullets: [
+        'Impartición de clases de squash',
+        'Organización de eventos nacionales e internacionales',
       ],
     },
   },
@@ -178,13 +187,13 @@ export default {
       'Figuración en Amazon Prime, testing para reality show internacional y base multimedia del grado.',
     prime: {
       title: 'Viaje de Fin de Curso. La Película (2025)',
-      role: 'Figuración · Amazon Prime España',
+      role: 'Figuración · Bad Wolf Casting · Amazon Prime España',
       year: '2024',
       desc: 'Participación en la producción cinematográfica de Amazon Prime Video España.',
     },
     reality: {
       title: 'Reality show internacional (USA)',
-      role: 'Equipo de testing · Bad Wolf Casting',
+      role: 'Equipo de testing · Palma Pictures',
       year: '2024',
       desc: 'Pruebas y acciones para producción audiovisual americana con Palma Pictures.',
     },

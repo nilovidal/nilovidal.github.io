@@ -25,6 +25,7 @@ export const experiences = [
   {
     id: 'cif',
     companyKey: 'exp.cif.company',
+    companyUrl: 'https://tuindependenciafinanciera.app',
     roleKey: 'exp.cif.role',
     periodKey: 'exp.cif.period',
     bulletsKey: 'exp.cif.bullets',
@@ -45,6 +46,14 @@ export const experiences = [
     periodKey: 'exp.invertir.period',
     bulletsKey: 'exp.invertir.bullets',
     accent: 'muted',
+  },
+  {
+    id: 'euroSport',
+    companyKey: 'exp.euroSport.company',
+    roleKey: 'exp.euroSport.role',
+    periodKey: 'exp.euroSport.period',
+    bulletsKey: 'exp.euroSport.bullets',
+    accent: 'squash',
   },
 ]
 

@@ -60,7 +60,20 @@ const otherCerts = computed(() =>
             <h4 class="text-lg font-semibold text-white">
               {{ t(job.roleKey) }}
             </h4>
-            <p class="text-cyber">{{ t(job.companyKey) }}</p>
+            <p>
+              <a
+                v-if="job.companyUrl"
+                :href="job.companyUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-1 text-cyber underline-offset-4 transition hover:text-cyber-glow hover:underline"
+                :aria-label="`${t(job.companyKey)} — ${t('common.external')}`"
+              >
+                {{ t(job.companyKey) }}
+                <span class="font-mono text-xs" aria-hidden="true">↗</span>
+              </a>
+              <span v-else class="text-cyber">{{ t(job.companyKey) }}</span>
+            </p>
           </div>
           <span class="font-mono text-xs text-muted">{{ t(job.periodKey) }}</span>
         </div>
