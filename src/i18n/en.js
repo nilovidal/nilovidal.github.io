@@ -16,7 +16,7 @@ export default {
     title: 'Nilo Vidal',
     subtitle: 'Cybersecurity & Full Stack Development',
     lead:
-      'Professional with a Master\'s in Cybersecurity, Deloitte experience, and development with Vue and Angular. I combine technical training with elite squash leadership and audiovisual production.',
+      'Professional with a Master\'s in Cybersecurity, Deloitte experience, and software development. I combine technical training with elite squash leadership and institutional representation.',
     ctaCyber: 'View tech journey',
     ctaSquash: 'PSA career',
     ctaContact: 'Get in touch',
@@ -31,7 +31,7 @@ export default {
     subtitle:
       'Cybersecurity strategy, vulnerability analysis, and full stack development — with Vue in production.',
     vueHighlight:
-      'Current stack for this site: Vue 3 + Vite + Tailwind. Also experienced with Angular, TypeScript, and the JavaScript ecosystem.',
+      'Current portfolio stack: Vue 3 + Vite + Tailwind. Also experienced with Angular, TypeScript, and the JavaScript ecosystem.',
     experienceTitle: 'Professional experience',
     educationTitle: 'Education',
     certsTitle: 'Certifications',
@@ -80,7 +80,7 @@ export default {
       role: 'Squash Manager',
       period: 'Jun 2014 – Nov 2025',
       bullets: [
-        'Squash coaching and lessons',
+        'Teaching squash classes',
         'Organisation of national and international events',
       ],
     },
@@ -160,7 +160,7 @@ export default {
     },
     t2022: {
       title: 'German Junior Open',
-      desc: 'Management team (4 editions). 500+ people — one of the world\'s top junior events.',
+      desc: 'Management team (4 editions). 500+ people — one of the world\'s top junior tournaments.',
       org: 'Sportwerk Hamburg',
     },
     t2024: {
@@ -187,9 +187,9 @@ export default {
   },
   media: {
     tag: 'sector_03',
-    title: 'Media & On-Screen',
+    title: 'Media & Acting',
     subtitle:
-      'Amazon Prime feature work, international reality show testing, and multimedia foundations.',
+      'Amazon Prime feature work, international reality show testing, and the multimedia foundations from my degree.',
     prime: {
       title: 'Viaje de Fin de Curso. La Película (2025)',
       role: 'Featured extra · Bad Wolf Casting · Amazon Prime Spain',
@@ -200,7 +200,7 @@ export default {
       title: 'International reality show (USA)',
       role: 'Testing team · Palma Pictures',
       year: '2024',
-      desc: 'Tests and actions for an American production with Palma Pictures.',
+      desc: 'Tests and actions for an American audiovisual production with Palma Pictures.',
     },
   },
   footer: {
