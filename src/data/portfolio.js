@@ -14,13 +14,21 @@ export const heroFacets = [
 
 export const experiences = [
   {
+    id: 'aenor',
+    companyKey: 'exp.aenor.company',
+    roleKey: 'exp.aenor.role',
+    periodKey: 'exp.aenor.period',
+    bulletsKey: 'exp.aenor.bullets',
+    accent: 'cyber',
+    featured: true,
+  },
+  {
     id: 'deloitte',
     companyKey: 'exp.deloitte.company',
     roleKey: 'exp.deloitte.role',
     periodKey: 'exp.deloitte.period',
     bulletsKey: 'exp.deloitte.bullets',
     accent: 'cyber',
-    featured: true,
   },
   {
     id: 'cif',

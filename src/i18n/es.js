@@ -38,6 +38,17 @@ export default {
     stackTitle: 'Stack técnico',
   },
   exp: {
+    aenor: {
+      company: 'AENOR',
+      role: 'Senior SharePoint Consultant',
+      period: 'Sep 2026 – Nov 2026',
+      bullets: [
+        'Rediseño y modernización de la intranet corporativa global de AENOR',
+        'Consultoría técnica y arquitectura de gobernanza de SharePoint Online, coordinando la estrategia visual y funcional entre Talento, Comunicación Interna e IT',
+        'Desarrollo SPFx, React, TypeScript, PnP, JS y API REST',
+        'Capacitación y transferencia de conocimiento al equipo',
+      ],
+    },
     deloitte: {
       company: 'Deloitte',
       role: 'Cybersecurity Consultant',

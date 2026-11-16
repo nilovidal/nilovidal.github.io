@@ -38,6 +38,17 @@ export default {
     stackTitle: 'Tech stack',
   },
   exp: {
+    aenor: {
+      company: 'AENOR',
+      role: 'Senior SharePoint Consultant',
+      period: 'Sep 2026 – Nov 2026',
+      bullets: [
+        'Redesign and modernization of AENOR’s global corporate intranet',
+        'Technical consulting and governance architecture for SharePoint Online, coordinating the visual and functional strategy across Talent, Internal Communications, and IT',
+        'SPFx, React, TypeScript, PnP, JS and REST API development',
+        'Training and knowledge transfer to the team',
+      ],
+    },
     deloitte: {
       company: 'Deloitte',
       role: 'Cybersecurity Consultant',
